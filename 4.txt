@@ -1,0 +1,39 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{tikz}
+\usepackage{colortbl}
+\usepackage[european,cuteinductors,smartlabels]{circuitikz}
+\usepackage{xcolor}
+\title{практика ?4}
+\author{шкуридин (8871)}
+\begin{document}
+\maketitle
+
+$\alpha=\frac{-2\cdot \pi}{3}$, $\beta=\frac{-5\cdot \pi}{6}$ \\
+
+
+\begin{tikzpicture}
+
+\draw [rounded corners=4pt,color=white,ball color=blue,smooth] (2.59,4.5,-3)
+circle (1.4) node {H};
+
+\draw [rounded corners=4pt,color=white,ball color=blue,smooth] (5.79,-0.34,-1.5)
+circle (1.4) node {H};
+
+\draw [rounded corners=4pt,color=white,ball color=blue,smooth] (0,0,0)
+circle (1.4) node {H};
+
+\begin{scope}[xscale=1,yscale=1]
+\draw [rounded corners=4pt,color=white,ball color=red,smooth] (2.49,0.85,-2.56)
+circle (2.7) node {C};
+
+
+\draw [rounded corners=4pt,color=white,ball color=blue,smooth] (1.57,-0.73,-5.74)
+circle (1.4) node {H};
+
+\end{scope}
+\end{tikzpicture}
+
+\end{document}
